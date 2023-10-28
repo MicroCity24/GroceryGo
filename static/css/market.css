@@ -1,0 +1,43 @@
+.market-con {
+  margin-top: 4vh;
+  width: 90vw;
+  height: 18vh;
+  border-radius: 1.4rem;
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-img {
+  height: 6.4rem;
+}
+
+.details-con {
+  height: 6.4rem;
+  width: 50%;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.name-txt {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.products-con {
+  display: flex;
+  width: 100%;
+}
+
+.products-txt {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.products-value-txt {
+  margin-left: 0.6rem;
+  font-size: 1.2rem;
+}

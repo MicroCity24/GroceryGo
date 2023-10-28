@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../img/tagWhite.png" />
+    <script defer src="../js/customer-account.js"></script>
+    <link rel="stylesheet" href="../css/app.css" />
+    <link rel="stylesheet" href="../css/var.css" />
+    <title>GroceryGo</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="top-con">
+        <div class="logo">
+          <img src="../img/tag.png" alt="" class="logo-img" />
+          <p class="logo-txt">Account</p>
+        </div>
+      </div>
+      <div class="main-con">
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+          <input type="file" name="image" accept="image/*" />
+          <input type="submit" value="Upload Image" />
+        </form>
+        <p class="name-txt">Nume</p>
+        <button class="logout" id="logoutBtn">LogOut</button>
+        <button class="delete" id="deleteBtn">Delete Account</button>
+      </div>
+      <div class="nav-con">
+        <a href="./customer-home.html" class="link-con"
+          ><img src="../img/home.png" alt="" class="link-img"
+        /></a>
+        <a href="./customer-markets.html" class="link-con"
+          ><img src="../img/groceries.png" alt="" class="link-img"
+        /></a>
+        <a href="./customer-account.html" class="link-con color"
+          ><img src="../img/userWhite.png" alt="" class="link-img"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>

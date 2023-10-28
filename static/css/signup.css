@@ -1,0 +1,145 @@
+body {
+  background-color: #d6d6d6;
+}
+.page {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+/*nav*/
+.nav {
+  height: 10vh;
+  display: flex;
+  padding: 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 2.5rem;
+}
+
+.logo-txt {
+  padding-left: 0.8rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/*main*/
+
+.main-con {
+  margin-top: 5vh;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*back*/
+
+.back-con {
+  width: 100vw;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.arrow-img {
+  height: 2rem;
+}
+
+.back-txt {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: 0.6rem;
+}
+
+/*form*/
+
+.form-con {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.username-con {
+  background-color: #ffff;
+  height: 7.5vh;
+  width: 90vw;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.email-con {
+  background-color: #ffff;
+  height: 7.5vh;
+  width: 90vw;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.password-con {
+  background-color: #ffff;
+  height: 7.5vh;
+  width: 90vw;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.submit-con {
+  background-color: #42b85f;
+  color: #ffff;
+  height: 7.5vh;
+  width: 90vw;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+/*change*/
+
+.change-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+}
+
+.change-con a {
+  padding-left: 1rem;
+  color: #00069b;
+}
+
+.bag {
+  height: 45vh;
+  position: absolute;
+  bottom: -18vh;
+  right: -12vw;
+  animation: slide-left 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s both;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(300px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

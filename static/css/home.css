@@ -1,0 +1,32 @@
+.info-con {
+  background-color: #42b85f;
+  margin-top: 6vh;
+  height: 15vh;
+  width: 90vw;
+  padding: 1.2rem;
+  border-radius: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #ffff;
+}
+
+.title-txt {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.value-txt {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.subtitle-con {
+  margin-top: 6vh;
+  width: 90vw;
+}
+
+.subtitle-txt {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
